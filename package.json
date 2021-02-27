@@ -1,0 +1,23 @@
+{
+  "name": "csvreader",
+  "version": "1.0.0",
+  "description": "A Project",
+  "main": "build/CSVReader.js",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "papaparse": "^5.3.0",
+    "request": "^2.88.2",
+    "scramjet": "^4.35.12",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:build": "tsc",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*",
+    "test": "mocha"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
